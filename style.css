@@ -50,11 +50,10 @@ button {
 	font-size: 15px;
 	font-weight: 500;
 	cursor: pointer;
-
 	box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 button:hover,
 button:active {
-	background:#FFDE61 ;
+	background: #FFDE61;
 }
