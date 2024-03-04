@@ -1,13 +1,50 @@
 body {
+	height: 100vh;
+	width: 100vw;
 	margin: 0;
 	padding: 0;
+	background: #00B377;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: "Chivo", sans-serif;
 }
 
-#textBox {
+.cont {
+	margin: 10px;
+	text-align: none;
+}
+
+p {
+	border: 2px solid black;
+
+	font-weight: 700;
+	color: #1E303A;
+	font-size: 25px;
+}
+
+.text-1 {
+	color: white;
+}
+
+input {
 	height: 25px;
 	width: 225px;
 }
 
-.diplay{
+.diplay {
 	display: flex;
+}
+
+button {
+	margin-top: 10px;
+	height: 40px;
+	width: 160px;
+	background: #FEDE65;
+	border: none;
+	border: 2px solid black;
+	border-radius: 5px;
+	font-family: "Chivo", sans-serif;
+	font-size: 15px;
+	font-weight: 500;
 }
