@@ -11,29 +11,27 @@ body {
 }
 
 .cont {
-	margin: 10px;
 	text-align: none;
 }
 
 p {
-	border: 2px solid black;
-
 	font-weight: 700;
 	color: #1E303A;
-	font-size: 25px;
+	font-size: 27px;
+	margin: 0;
 }
 
 .text-1 {
 	color: white;
+	margin-bottom: 15px;
 }
 
-input {
-	height: 25px;
-	width: 225px;
-}
-
-.diplay {
-	display: flex;
+input,
+input:focus {
+	border: none;
+	height: 30px;
+	width: 240px;
+	outline: none;
 }
 
 button {
