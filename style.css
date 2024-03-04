@@ -10,10 +10,6 @@ body {
 	font-family: "Chivo", sans-serif;
 }
 
-.cont {
-	text-align: none;
-}
-
 p {
 	font-weight: 700;
 	color: #1E303A;
@@ -32,12 +28,20 @@ input:focus {
 	height: 30px;
 	width: 240px;
 	outline: none;
+	border: 1px solid black;
+	border-radius: 5px;
+
+}
+
+.img {
+	position: relative;
+	top: 7px;
 }
 
 button {
 	margin-top: 10px;
 	height: 40px;
-	width: 160px;
+	width: 170px;
 	background: #FEDE65;
 	border: none;
 	border: 2px solid black;
@@ -45,4 +49,12 @@ button {
 	font-family: "Chivo", sans-serif;
 	font-size: 15px;
 	font-weight: 500;
+	cursor: pointer;
+
+	box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+button:hover,
+button:active {
+	background:#FFDE61 ;
 }
